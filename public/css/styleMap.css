@@ -18,8 +18,6 @@ main {
   background-color: #727482;
 }
 
-
-
 .main__header--links {
   display: flex;
   justify-content: space-between;
@@ -33,6 +31,15 @@ main {
   color: white;
   text-decoration: none;
 }
+
+
+.main__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
 
 .main__header--links > li > a:hover {
   color: white;
@@ -103,6 +110,9 @@ footer {
   margin-top: 40px;
   background-color: #e07110;
   height: 130px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 aside > figure > figcaption {
   background-color: red;
